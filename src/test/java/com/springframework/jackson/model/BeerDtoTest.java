@@ -27,7 +27,7 @@ class BeerDtoTest extends BaseTest{
 
     @Test
     void testDeserialize22() throws IOException {
-        String json22 = "{\"id\":\"639c00ff-9993-4ec1-af12-8277c85f93bb\",\"beerName\":\"BeerName\",\"beerStyle\":\"Ale\",\"upc\":123123123123,\"price\":12.99,\"createdDate\":\"2019-06-02T16:35:58.321001-04:00\",\"lastUpdatedDate\":\"2019-06-02T16:35:58.321872-04:00\"}";
+        String json22 = "{\"id\":\"639c00ff-9993-4ec1-af12-8277c85f93bb\",\"beerName\":\"BeerName\",\"beerStyle\":\"Ale\",\"upc\":123123123123,\"price\":12.99,\"createdDate\":\"2019-06-03T21:01:53-0400\",\"lastUpdatedDate\":\"2019-06-02T16:35:58.321872-04:00\"}";
         System.out.println("AAA : " + json22);
 
 
@@ -46,7 +46,7 @@ class BeerDtoTest extends BaseTest{
 
 he created a JSON object  \"   it will print  "   only one double-quote.
 just for showing purpose he create this json object.
- */
+*/
     }
 
 
